@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8408A5521B715D85005C3A74 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8408A54F1B715D85005C3A74 /* 1.png */; };
+		8408A5531B715D85005C3A74 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8408A5501B715D85005C3A74 /* 2.png */; };
+		8408A5541B715D85005C3A74 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8408A5511B715D85005C3A74 /* 3.png */; };
 		848066441B71531E002D0C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066431B71531E002D0C4D /* Foundation.framework */; };
 		848066461B71531E002D0C4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066451B71531E002D0C4D /* CoreGraphics.framework */; };
 		848066481B71531E002D0C4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066471B71531E002D0C4D /* UIKit.framework */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8408A54F1B715D85005C3A74 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		8408A5501B715D85005C3A74 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		8408A5511B715D85005C3A74 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		848066401B71531E002D0C4D /* FirstTaskYal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTaskYal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848066431B71531E002D0C4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		848066451B71531E002D0C4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +85,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8408A54C1B7154C5005C3A74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8408A54F1B715D85005C3A74 /* 1.png */,
+				8408A5501B715D85005C3A74 /* 2.png */,
+				8408A5511B715D85005C3A74 /* 3.png */,
+				848066551B71531E002D0C4D /* Main.storyboard */,
+				8480665B1B71531E002D0C4D /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8408A54D1B715CB7005C3A74 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				848066581B71531E002D0C4D /* AVViewController.h */,
+				848066591B71531E002D0C4D /* AVViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		848066371B71531E002D0C4D = {
 			isa = PBXGroup;
 			children = (
@@ -114,10 +141,8 @@
 			children = (
 				848066521B71531E002D0C4D /* AVAppDelegate.h */,
 				848066531B71531E002D0C4D /* AVAppDelegate.m */,
-				848066551B71531E002D0C4D /* Main.storyboard */,
-				848066581B71531E002D0C4D /* AVViewController.h */,
-				848066591B71531E002D0C4D /* AVViewController.m */,
-				8480665B1B71531E002D0C4D /* Images.xcassets */,
+				8408A54D1B715CB7005C3A74 /* View Controllers */,
+				8408A54C1B7154C5005C3A74 /* Resources */,
 				8480664A1B71531E002D0C4D /* Supporting Files */,
 			);
 			path = FirstTaskYal;
@@ -230,6 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8480665C1B71531E002D0C4D /* Images.xcassets in Resources */,
+				8408A5521B715D85005C3A74 /* 1.png in Resources */,
+				8408A5531B715D85005C3A74 /* 2.png in Resources */,
+				8408A5541B715D85005C3A74 /* 3.png in Resources */,
 				8480664E1B71531E002D0C4D /* InfoPlist.strings in Resources */,
 				848066571B71531E002D0C4D /* Main.storyboard in Resources */,
 			);
@@ -457,6 +485,7 @@
 				848066741B71531F002D0C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		848066751B71531F002D0C4D /* Build configuration list for PBXNativeTarget "FirstTaskYalTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +494,7 @@
 				848066771B71531F002D0C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
