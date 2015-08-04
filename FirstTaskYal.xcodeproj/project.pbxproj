@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8408A5521B715D85005C3A74 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8408A54F1B715D85005C3A74 /* 1.png */; };
-		8408A5531B715D85005C3A74 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8408A5501B715D85005C3A74 /* 2.png */; };
-		8408A5541B715D85005C3A74 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8408A5511B715D85005C3A74 /* 3.png */; };
+		8408A5521B715D85005C3A74 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8408A54F1B715D85005C3A74 /* 1.jpg */; };
+		8408A5531B715D85005C3A74 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8408A5501B715D85005C3A74 /* 2.jpg */; };
+		8408A5541B715D85005C3A74 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8408A5511B715D85005C3A74 /* 3.jpg */; };
 		848066441B71531E002D0C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066431B71531E002D0C4D /* Foundation.framework */; };
 		848066461B71531E002D0C4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066451B71531E002D0C4D /* CoreGraphics.framework */; };
 		848066481B71531E002D0C4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066471B71531E002D0C4D /* UIKit.framework */; };
@@ -17,13 +17,14 @@
 		848066501B71531E002D0C4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480664F1B71531E002D0C4D /* main.m */; };
 		848066541B71531E002D0C4D /* AVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848066531B71531E002D0C4D /* AVAppDelegate.m */; };
 		848066571B71531E002D0C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848066551B71531E002D0C4D /* Main.storyboard */; };
-		8480665A1B71531E002D0C4D /* AVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848066591B71531E002D0C4D /* AVViewController.m */; };
 		8480665C1B71531E002D0C4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8480665B1B71531E002D0C4D /* Images.xcassets */; };
 		848066631B71531E002D0C4D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066621B71531E002D0C4D /* XCTest.framework */; };
 		848066641B71531F002D0C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066431B71531E002D0C4D /* Foundation.framework */; };
 		848066651B71531F002D0C4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066471B71531E002D0C4D /* UIKit.framework */; };
 		8480666D1B71531F002D0C4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8480666B1B71531F002D0C4D /* InfoPlist.strings */; };
 		8480666F1B71531F002D0C4D /* FirstTaskYalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480666E1B71531F002D0C4D /* FirstTaskYalTests.m */; };
+		84A55B0B1B716FCE001340E6 /* AVTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A55B0A1B716FCE001340E6 /* AVTableViewController.m */; };
+		84A55B0F1B71728F001340E6 /* AVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A55B0E1B71728F001340E6 /* AVTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8408A54F1B715D85005C3A74 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		8408A5501B715D85005C3A74 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		8408A5511B715D85005C3A74 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		8408A54F1B715D85005C3A74 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		8408A5501B715D85005C3A74 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		8408A5511B715D85005C3A74 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		848066401B71531E002D0C4D /* FirstTaskYal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTaskYal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848066431B71531E002D0C4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		848066451B71531E002D0C4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,14 +52,16 @@
 		848066521B71531E002D0C4D /* AVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAppDelegate.h; sourceTree = "<group>"; };
 		848066531B71531E002D0C4D /* AVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAppDelegate.m; sourceTree = "<group>"; };
 		848066561B71531E002D0C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		848066581B71531E002D0C4D /* AVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVViewController.h; sourceTree = "<group>"; };
-		848066591B71531E002D0C4D /* AVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVViewController.m; sourceTree = "<group>"; };
 		8480665B1B71531E002D0C4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		848066611B71531E002D0C4D /* FirstTaskYalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTaskYalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848066621B71531E002D0C4D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8480666A1B71531F002D0C4D /* FirstTaskYalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstTaskYalTests-Info.plist"; sourceTree = "<group>"; };
 		8480666C1B71531F002D0C4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8480666E1B71531F002D0C4D /* FirstTaskYalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTaskYalTests.m; sourceTree = "<group>"; };
+		84A55B091B716FCE001340E6 /* AVTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTableViewController.h; sourceTree = "<group>"; };
+		84A55B0A1B716FCE001340E6 /* AVTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTableViewController.m; sourceTree = "<group>"; };
+		84A55B0D1B71728F001340E6 /* AVTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTableViewCell.h; sourceTree = "<group>"; };
+		84A55B0E1B71728F001340E6 /* AVTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +91,9 @@
 		8408A54C1B7154C5005C3A74 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8408A54F1B715D85005C3A74 /* 1.png */,
-				8408A5501B715D85005C3A74 /* 2.png */,
-				8408A5511B715D85005C3A74 /* 3.png */,
+				8408A54F1B715D85005C3A74 /* 1.jpg */,
+				8408A5501B715D85005C3A74 /* 2.jpg */,
+				8408A5511B715D85005C3A74 /* 3.jpg */,
 				848066551B71531E002D0C4D /* Main.storyboard */,
 				8480665B1B71531E002D0C4D /* Images.xcassets */,
 			);
@@ -100,8 +103,8 @@
 		8408A54D1B715CB7005C3A74 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				848066581B71531E002D0C4D /* AVViewController.h */,
-				848066591B71531E002D0C4D /* AVViewController.m */,
+				84A55B091B716FCE001340E6 /* AVTableViewController.h */,
+				84A55B0A1B716FCE001340E6 /* AVTableViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			children = (
 				848066521B71531E002D0C4D /* AVAppDelegate.h */,
 				848066531B71531E002D0C4D /* AVAppDelegate.m */,
+				84A55B0C1B717222001340E6 /* Table cell Prototype */,
 				8408A54D1B715CB7005C3A74 /* View Controllers */,
 				8408A54C1B7154C5005C3A74 /* Resources */,
 				8480664A1B71531E002D0C4D /* Supporting Files */,
@@ -175,6 +179,15 @@
 				8480666B1B71531F002D0C4D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A55B0C1B717222001340E6 /* Table cell Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				84A55B0D1B71728F001340E6 /* AVTableViewCell.h */,
+				84A55B0E1B71728F001340E6 /* AVTableViewCell.m */,
+			);
+			name = "Table cell Prototype";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,9 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8480665C1B71531E002D0C4D /* Images.xcassets in Resources */,
-				8408A5521B715D85005C3A74 /* 1.png in Resources */,
-				8408A5531B715D85005C3A74 /* 2.png in Resources */,
-				8408A5541B715D85005C3A74 /* 3.png in Resources */,
+				8408A5521B715D85005C3A74 /* 1.jpg in Resources */,
+				8408A5531B715D85005C3A74 /* 2.jpg in Resources */,
+				8408A5541B715D85005C3A74 /* 3.jpg in Resources */,
 				8480664E1B71531E002D0C4D /* InfoPlist.strings in Resources */,
 				848066571B71531E002D0C4D /* Main.storyboard in Resources */,
 			);
@@ -279,8 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				848066501B71531E002D0C4D /* main.m in Sources */,
-				8480665A1B71531E002D0C4D /* AVViewController.m in Sources */,
 				848066541B71531E002D0C4D /* AVAppDelegate.m in Sources */,
+				84A55B0F1B71728F001340E6 /* AVTableViewCell.m in Sources */,
+				84A55B0B1B716FCE001340E6 /* AVTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
