@@ -10,7 +10,7 @@
 
 @interface AVTableViewCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UIImageView *cellImageView;
-@property (weak, nonatomic) IBOutlet UILabel *cellTextLabel;
+@property (nonatomic, weak) IBOutlet UIImageView    *cellImageView;
+@property (nonatomic, weak) IBOutlet UILabel        *cellTextLabel;
 
 @end

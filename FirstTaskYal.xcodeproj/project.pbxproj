@@ -17,14 +17,14 @@
 		848066651B71531F002D0C4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066471B71531E002D0C4D /* UIKit.framework */; };
 		8480666D1B71531F002D0C4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8480666B1B71531F002D0C4D /* InfoPlist.strings */; };
 		8480666F1B71531F002D0C4D /* FirstTaskYalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480666E1B71531F002D0C4D /* FirstTaskYalTests.m */; };
-		84F23B261B83692C0064EFFC /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F23B151B83692C0064EFFC /* 1.jpg */; };
-		84F23B271B83692C0064EFFC /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F23B161B83692C0064EFFC /* 2.jpg */; };
-		84F23B281B83692C0064EFFC /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F23B171B83692C0064EFFC /* 3.jpg */; };
 		84F23B291B83692C0064EFFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F23B181B83692C0064EFFC /* Main.storyboard */; };
 		84F23B2A1B83692C0064EFFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F23B1A1B83692C0064EFFC /* Images.xcassets */; };
 		84F23B2B1B83692C0064EFFC /* AVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F23B1D1B83692C0064EFFC /* AVAppDelegate.m */; };
 		84F23B2C1B83692C0064EFFC /* AVTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F23B221B83692C0064EFFC /* AVTableViewController.m */; };
 		84F23B2D1B83692C0064EFFC /* AVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F23B251B83692C0064EFFC /* AVTableViewCell.m */; };
+		84F23B321B836B5F0064EFFC /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F23B2F1B836B5F0064EFFC /* 1.jpg */; };
+		84F23B331B836B5F0064EFFC /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F23B301B836B5F0064EFFC /* 2.jpg */; };
+		84F23B341B836B5F0064EFFC /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F23B311B836B5F0064EFFC /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +51,6 @@
 		8480666A1B71531F002D0C4D /* FirstTaskYalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstTaskYalTests-Info.plist"; sourceTree = "<group>"; };
 		8480666C1B71531F002D0C4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8480666E1B71531F002D0C4D /* FirstTaskYalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTaskYalTests.m; sourceTree = "<group>"; };
-		84F23B151B83692C0064EFFC /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		84F23B161B83692C0064EFFC /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		84F23B171B83692C0064EFFC /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		84F23B191B83692C0064EFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84F23B1A1B83692C0064EFFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84F23B1C1B83692C0064EFFC /* AVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +59,9 @@
 		84F23B221B83692C0064EFFC /* AVTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTableViewController.m; sourceTree = "<group>"; };
 		84F23B241B83692C0064EFFC /* AVTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTableViewCell.h; sourceTree = "<group>"; };
 		84F23B251B83692C0064EFFC /* AVTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTableViewCell.m; sourceTree = "<group>"; };
+		84F23B2F1B836B5F0064EFFC /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		84F23B301B836B5F0064EFFC /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		84F23B311B836B5F0064EFFC /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,9 +160,7 @@
 		84F23B141B83692C0064EFFC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				84F23B151B83692C0064EFFC /* 1.jpg */,
-				84F23B161B83692C0064EFFC /* 2.jpg */,
-				84F23B171B83692C0064EFFC /* 3.jpg */,
+				84F23B2E1B836B5F0064EFFC /* Images */,
 				84F23B181B83692C0064EFFC /* Main.storyboard */,
 				84F23B1A1B83692C0064EFFC /* Images.xcassets */,
 			);
@@ -212,6 +210,16 @@
 				84F23B251B83692C0064EFFC /* AVTableViewCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		84F23B2E1B836B5F0064EFFC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84F23B2F1B836B5F0064EFFC /* 1.jpg */,
+				84F23B301B836B5F0064EFFC /* 2.jpg */,
+				84F23B311B836B5F0064EFFC /* 3.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,12 +299,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F23B271B83692C0064EFFC /* 2.jpg in Resources */,
 				84F23B291B83692C0064EFFC /* Main.storyboard in Resources */,
+				84F23B321B836B5F0064EFFC /* 1.jpg in Resources */,
+				84F23B331B836B5F0064EFFC /* 2.jpg in Resources */,
+				84F23B341B836B5F0064EFFC /* 3.jpg in Resources */,
 				8480664E1B71531E002D0C4D /* InfoPlist.strings in Resources */,
 				84F23B2A1B83692C0064EFFC /* Images.xcassets in Resources */,
-				84F23B261B83692C0064EFFC /* 1.jpg in Resources */,
-				84F23B281B83692C0064EFFC /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
