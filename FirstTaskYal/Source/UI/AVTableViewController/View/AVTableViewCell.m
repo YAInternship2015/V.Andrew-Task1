@@ -7,20 +7,25 @@
 //
 
 #import "AVTableViewCell.h"
+#import "AVBookModel.h"
+
+NSString *const AVTableViewCellPrototype = @"AVTableViewCellPrototype";
+
+@interface AVTableViewCell()
+
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
+@property (nonatomic, weak) IBOutlet UILabel *textLabel;
+
+@end;
 
 @implementation AVTableViewCell
 
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
-    }
-    return self;
-}
+@synthesize imageView = _imageView;
+@synthesize textLabel = _textLabel;
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated
-{
-    [super setSelected:selected animated:animated];
-
+- (void)setupWithData:(AVBookModel *)model {
+    self.imageView.image = model.bookImage;
+    self.textLabel.text = model.bookName;
 }
 
 @end
