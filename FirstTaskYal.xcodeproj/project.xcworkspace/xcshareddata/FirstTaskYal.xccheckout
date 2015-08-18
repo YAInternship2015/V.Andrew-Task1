@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8E187AEB-09BE-4973-BEE4-1246B35D5F78</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FirstTaskYal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AE69399F-DA76-44E8-AF98-028263A1BF37</key>
+		<string>https://github.com/fullBucket/FirtsTaskYal.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FirstTaskYal.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AE69399F-DA76-44E8-AF98-028263A1BF37</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fullBucket/FirtsTaskYal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE69399F-DA76-44E8-AF98-028263A1BF37</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE69399F-DA76-44E8-AF98-028263A1BF37</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FirstTaskYal</string>
+		</dict>
+	</array>
+</dict>
+</plist>
