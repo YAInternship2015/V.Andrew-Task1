@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class AVBookModel;
+
+extern NSString *const AVTableViewCellPrototype;
+
 @interface AVTableViewCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UIImageView *cellImageView;
-@property (weak, nonatomic) IBOutlet UILabel *cellTextLabel;
+- (void)setupWithData:(AVBookModel *)model;
 
 @end
