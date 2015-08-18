@@ -8,37 +8,24 @@
 
 #import "AVTableViewController.h"
 #import "AVTableViewCell.h"
+#import "AVCellDataSource.h"
+
+@class AVBookModel;
 
 NSInteger const kHeightForRow = 80;
 
 @interface AVTableViewController ()
 
-@property (nonatomic, strong) NSArray *imagesList;
-@property (nonatomic, strong) NSArray *textsList;
+@property (nonatomic, strong) AVCellDataSource *dataSource;
 
 @end
 
 @implementation AVTableViewController
 
-- (id)initWithStyle:(UITableViewStyle)style {
-    self = [super initWithStyle:style];
-    if (self) {
-    }
-    return self;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-    self.textsList = [[NSArray alloc] initWithObjects:@"row #1", @"row #2", @"row #3", @"row #4",
-                      @"row #5", @"row #6", @"row #7", @"row #8", @"row #9", @"row #10", nil];
-    
-    self.imagesList = [[NSArray alloc] initWithObjects:@"1.jpg", @"2.jpg", @"3.jpg", @"1.jpg",
-                       @"2.jpg", @"3.jpg", @"1.jpg", @"2.jpg", @"3.jpg", @"1.jpg", nil];
-}
+    self.dataSource = [[AVCellDataSource alloc] init];
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
 }
 
 #pragma mark - Table view data source
@@ -48,19 +35,19 @@ NSInteger const kHeightForRow = 80;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [self.textsList count];
+    return [[self.dataSource listOfData] count];
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    AVTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellsPrototype"
-                                                            forIndexPath:indexPath];
+    AVTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: AVTableViewCellPrototype
+                                                            forIndexPath: indexPath];
     NSInteger rowIndex = indexPath.row;
-    cell.cellTextLabel.text = [self.textsList objectAtIndex: rowIndex];
-    cell.cellImageView.image = [UIImage imageNamed: [self.imagesList objectAtIndex: rowIndex]];
-    
+    NSArray *data = [self.dataSource listOfData];
+    [cell setupWithData: data[rowIndex]];
+
     return cell;
 }
 
