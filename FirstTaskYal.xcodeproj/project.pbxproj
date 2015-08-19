@@ -13,6 +13,7 @@
 		84636F9B1B84AB0800E1AA41 /* ToKillAMockingbird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84636F961B84AB0800E1AA41 /* ToKillAMockingbird.jpg */; };
 		84636F9C1B84AB0800E1AA41 /* Twilight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84636F971B84AB0800E1AA41 /* Twilight.jpg */; };
 		84636F9E1B84AB4100E1AA41 /* Books.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84636F9D1B84AB4100E1AA41 /* Books.plist */; };
+		84636FA21B84C32400E1AA41 /* AVAddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84636FA11B84C32400E1AA41 /* AVAddItemViewController.m */; };
 		848066441B71531E002D0C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066431B71531E002D0C4D /* Foundation.framework */; };
 		848066461B71531E002D0C4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066451B71531E002D0C4D /* CoreGraphics.framework */; };
 		848066481B71531E002D0C4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066471B71531E002D0C4D /* UIKit.framework */; };
@@ -51,6 +52,8 @@
 		84636F961B84AB0800E1AA41 /* ToKillAMockingbird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ToKillAMockingbird.jpg; sourceTree = "<group>"; };
 		84636F971B84AB0800E1AA41 /* Twilight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Twilight.jpg; sourceTree = "<group>"; };
 		84636F9D1B84AB4100E1AA41 /* Books.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Books.plist; sourceTree = "<group>"; };
+		84636FA01B84C32400E1AA41 /* AVAddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAddItemViewController.h; sourceTree = "<group>"; };
+		84636FA11B84C32400E1AA41 /* AVAddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAddItemViewController.m; sourceTree = "<group>"; };
 		848066401B71531E002D0C4D /* FirstTaskYal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTaskYal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848066431B71531E002D0C4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		848066451B71531E002D0C4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +119,15 @@
 				84636F971B84AB0800E1AA41 /* Twilight.jpg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		84636F9F1B84C1FF00E1AA41 /* AVAddItemViewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				84636FA01B84C32400E1AA41 /* AVAddItemViewController.h */,
+				84636FA11B84C32400E1AA41 /* AVAddItemViewController.m */,
+			);
+			path = AVAddItemViewcontroller;
 			sourceTree = "<group>";
 		};
 		848066371B71531E002D0C4D = {
@@ -242,6 +254,7 @@
 		84F23B1F1B83692C0064EFFC /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				84636F9F1B84C1FF00E1AA41 /* AVAddItemViewcontroller */,
 				84B75EFE1B83A6E600E27E48 /* AVCollectionViewController */,
 				84F23B201B83692C0064EFFC /* AVTableViewController */,
 			);
@@ -372,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B75F021B83A71700E27E48 /* AVCollectionViewController.m in Sources */,
+				84636FA21B84C32400E1AA41 /* AVAddItemViewController.m in Sources */,
 				84F23B371B83705A0064EFFC /* AVBookModel.m in Sources */,
 				84F23B3A1B8370910064EFFC /* AVCellDataSource.m in Sources */,
 				848066501B71531E002D0C4D /* main.m in Sources */,

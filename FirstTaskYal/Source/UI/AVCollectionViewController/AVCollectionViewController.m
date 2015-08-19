@@ -25,6 +25,7 @@
     
 }
 
+
 #pragma mark - UICollectionView datasource
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView
@@ -42,6 +43,12 @@
     NSArray *data = [self.dataSource listOfData];
     [collectionCell zetupWithData: data[indexPath.row]];
     return collectionCell;
+}
+
+#pragma mark - action
+
+- (IBAction)backOnTableView:(id)sender {
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 
