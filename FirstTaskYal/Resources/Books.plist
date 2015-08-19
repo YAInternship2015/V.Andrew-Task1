@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Thumbnail</key>
+	<array>
+		<string>Twilight.jpg</string>
+		<string>ToKillAMockingbird.jpg</string>
+		<string>TheHungerGames.jpg</string>
+		<string>PrideAndPrejudice.jpg</string>
+		<string>HarryPotterAndTheOrder.jpg</string>
+	</array>
+	<key>BookTitle</key>
+	<array>
+		<string>Twilight</string>
+		<string>To Kill a Mockingbird</string>
+		<string>The Hunger Games</string>
+		<string>Pride and Prejudice</string>
+		<string>Harry Potter and the Order of the Phoenix</string>
+	</array>
+</dict>
+</plist>

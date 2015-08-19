@@ -22,16 +22,18 @@
     if (self) {
         _data = [[NSMutableArray alloc] init];
         
-        NSArray *textsList = [[NSArray alloc] initWithObjects:@"row #1", @"row #2", @"row #3", @"row #4",
-        @"row #5", @"row #6", @"row #7", @"row #8", @"row #9", @"row #10", nil];
-         
-        NSArray *imagesList = [[NSArray alloc] initWithObjects:@"1.jpg", @"2.jpg", @"3.jpg", @"1.jpg",
-        @"2.jpg", @"3.jpg", @"1.jpg", @"2.jpg", @"3.jpg", @"1.jpg", nil];
-
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"Books" ofType:@"plist"];
+        
+        NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+        NSArray *titlesList = [dict objectForKey:@"BookTitle"];
+        NSArray *thumbnails = [dict objectForKey:@"Thumbnail"];
+        
         NSInteger index = 0;
-        for (NSString *name in textsList) {
+        for (NSString *name in titlesList) {
+            NSLog(@"%@", thumbnails[index]);
             AVBookModel *model = [AVBookModel bookWithName:name
-                                                image:[UIImage imageNamed: imagesList[index++]]];
+                                                image:[UIImage imageNamed: thumbnails[index++]]];
+            
             [_data addObject:model];
         }
         
@@ -41,9 +43,15 @@
     return self;
 }
 
+#pragma mark - public
+
 - (NSArray *)listOfData {
     return self.data;
 }
+
+#pragma mark - private
+
+
 
 
 @end

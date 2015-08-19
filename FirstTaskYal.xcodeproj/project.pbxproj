@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84636F981B84AB0800E1AA41 /* HarryPotterAndTheOrder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84636F931B84AB0800E1AA41 /* HarryPotterAndTheOrder.jpg */; };
+		84636F991B84AB0800E1AA41 /* PrideAndPrejudice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84636F941B84AB0800E1AA41 /* PrideAndPrejudice.jpg */; };
+		84636F9A1B84AB0800E1AA41 /* TheHungerGames.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84636F951B84AB0800E1AA41 /* TheHungerGames.jpg */; };
+		84636F9B1B84AB0800E1AA41 /* ToKillAMockingbird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84636F961B84AB0800E1AA41 /* ToKillAMockingbird.jpg */; };
+		84636F9C1B84AB0800E1AA41 /* Twilight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84636F971B84AB0800E1AA41 /* Twilight.jpg */; };
+		84636F9E1B84AB4100E1AA41 /* Books.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84636F9D1B84AB4100E1AA41 /* Books.plist */; };
 		848066441B71531E002D0C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066431B71531E002D0C4D /* Foundation.framework */; };
 		848066461B71531E002D0C4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066451B71531E002D0C4D /* CoreGraphics.framework */; };
 		848066481B71531E002D0C4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848066471B71531E002D0C4D /* UIKit.framework */; };
@@ -19,9 +25,6 @@
 		8480666F1B71531F002D0C4D /* FirstTaskYalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480666E1B71531F002D0C4D /* FirstTaskYalTests.m */; };
 		84B75F021B83A71700E27E48 /* AVCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B75F011B83A71700E27E48 /* AVCollectionViewController.m */; };
 		84B75F051B83A75800E27E48 /* AVCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B75F041B83A75800E27E48 /* AVCollectionViewCell.m */; };
-		84BA96281B83A63100DBAF9E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BA96251B83A63100DBAF9E /* 1.jpg */; };
-		84BA96291B83A63100DBAF9E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BA96261B83A63100DBAF9E /* 2.jpg */; };
-		84BA962A1B83A63100DBAF9E /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BA96271B83A63100DBAF9E /* 3.jpg */; };
 		84BA962D1B83A64F00DBAF9E /* AVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA962C1B83A64F00DBAF9E /* AVAppDelegate.m */; };
 		84F23B291B83692C0064EFFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F23B181B83692C0064EFFC /* Main.storyboard */; };
 		84F23B2A1B83692C0064EFFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F23B1A1B83692C0064EFFC /* Images.xcassets */; };
@@ -42,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84636F931B84AB0800E1AA41 /* HarryPotterAndTheOrder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HarryPotterAndTheOrder.jpg; sourceTree = "<group>"; };
+		84636F941B84AB0800E1AA41 /* PrideAndPrejudice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PrideAndPrejudice.jpg; sourceTree = "<group>"; };
+		84636F951B84AB0800E1AA41 /* TheHungerGames.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheHungerGames.jpg; sourceTree = "<group>"; };
+		84636F961B84AB0800E1AA41 /* ToKillAMockingbird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ToKillAMockingbird.jpg; sourceTree = "<group>"; };
+		84636F971B84AB0800E1AA41 /* Twilight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Twilight.jpg; sourceTree = "<group>"; };
+		84636F9D1B84AB4100E1AA41 /* Books.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Books.plist; sourceTree = "<group>"; };
 		848066401B71531E002D0C4D /* FirstTaskYal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTaskYal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848066431B71531E002D0C4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		848066451B71531E002D0C4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,9 +68,6 @@
 		84B75F011B83A71700E27E48 /* AVCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCollectionViewController.m; sourceTree = "<group>"; };
 		84B75F031B83A75800E27E48 /* AVCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCollectionViewCell.h; sourceTree = "<group>"; };
 		84B75F041B83A75800E27E48 /* AVCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCollectionViewCell.m; sourceTree = "<group>"; };
-		84BA96251B83A63100DBAF9E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		84BA96261B83A63100DBAF9E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		84BA96271B83A63100DBAF9E /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		84BA962B1B83A64F00DBAF9E /* AVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAppDelegate.h; sourceTree = "<group>"; };
 		84BA962C1B83A64F00DBAF9E /* AVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAppDelegate.m; sourceTree = "<group>"; };
 		84F23B191B83692C0064EFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,6 +106,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84636F921B84AB0800E1AA41 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84636F931B84AB0800E1AA41 /* HarryPotterAndTheOrder.jpg */,
+				84636F941B84AB0800E1AA41 /* PrideAndPrejudice.jpg */,
+				84636F951B84AB0800E1AA41 /* TheHungerGames.jpg */,
+				84636F961B84AB0800E1AA41 /* ToKillAMockingbird.jpg */,
+				84636F971B84AB0800E1AA41 /* Twilight.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		848066371B71531E002D0C4D = {
 			isa = PBXGroup;
 			children = (
@@ -188,22 +206,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		84BA96241B83A63100DBAF9E /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				84BA96251B83A63100DBAF9E /* 1.jpg */,
-				84BA96261B83A63100DBAF9E /* 2.jpg */,
-				84BA96271B83A63100DBAF9E /* 3.jpg */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 		84F23B141B83692C0064EFFC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				84BA96241B83A63100DBAF9E /* Images */,
+				84636F921B84AB0800E1AA41 /* Images */,
 				84F23B181B83692C0064EFFC /* Main.storyboard */,
 				84F23B1A1B83692C0064EFFC /* Images.xcassets */,
+				84636F9D1B84AB4100E1AA41 /* Books.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -336,11 +345,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F23B291B83692C0064EFFC /* Main.storyboard in Resources */,
-				84BA96281B83A63100DBAF9E /* 1.jpg in Resources */,
-				84BA96291B83A63100DBAF9E /* 2.jpg in Resources */,
-				84BA962A1B83A63100DBAF9E /* 3.jpg in Resources */,
+				84636F981B84AB0800E1AA41 /* HarryPotterAndTheOrder.jpg in Resources */,
+				84636F9A1B84AB0800E1AA41 /* TheHungerGames.jpg in Resources */,
+				84636F9E1B84AB4100E1AA41 /* Books.plist in Resources */,
 				8480664E1B71531E002D0C4D /* InfoPlist.strings in Resources */,
 				84F23B2A1B83692C0064EFFC /* Images.xcassets in Resources */,
+				84636F991B84AB0800E1AA41 /* PrideAndPrejudice.jpg in Resources */,
+				84636F9B1B84AB0800E1AA41 /* ToKillAMockingbird.jpg in Resources */,
+				84636F9C1B84AB0800E1AA41 /* Twilight.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
