@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841E18D31B86842300A7C1DA /* AVBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E18D01B86842300A7C1DA /* AVBookModel.m */; };
+		841E18D41B86842300A7C1DA /* AVCellDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E18D21B86842300A7C1DA /* AVCellDataSource.m */; };
 		84636F981B84AB0800E1AA41 /* HarryPotterAndTheOrder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84636F931B84AB0800E1AA41 /* HarryPotterAndTheOrder.jpg */; };
 		84636F991B84AB0800E1AA41 /* PrideAndPrejudice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84636F941B84AB0800E1AA41 /* PrideAndPrejudice.jpg */; };
 		84636F9A1B84AB0800E1AA41 /* TheHungerGames.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84636F951B84AB0800E1AA41 /* TheHungerGames.jpg */; };
@@ -31,8 +33,6 @@
 		84F23B2A1B83692C0064EFFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F23B1A1B83692C0064EFFC /* Images.xcassets */; };
 		84F23B2C1B83692C0064EFFC /* AVTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F23B221B83692C0064EFFC /* AVTableViewController.m */; };
 		84F23B2D1B83692C0064EFFC /* AVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F23B251B83692C0064EFFC /* AVTableViewCell.m */; };
-		84F23B371B83705A0064EFFC /* AVBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F23B361B83705A0064EFFC /* AVBookModel.m */; };
-		84F23B3A1B8370910064EFFC /* AVCellDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F23B391B8370910064EFFC /* AVCellDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841E18CF1B86842300A7C1DA /* AVBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVBookModel.h; sourceTree = "<group>"; };
+		841E18D01B86842300A7C1DA /* AVBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVBookModel.m; sourceTree = "<group>"; };
+		841E18D11B86842300A7C1DA /* AVCellDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCellDataSource.h; sourceTree = "<group>"; };
+		841E18D21B86842300A7C1DA /* AVCellDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCellDataSource.m; sourceTree = "<group>"; };
 		84636F931B84AB0800E1AA41 /* HarryPotterAndTheOrder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HarryPotterAndTheOrder.jpg; sourceTree = "<group>"; };
 		84636F941B84AB0800E1AA41 /* PrideAndPrejudice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PrideAndPrejudice.jpg; sourceTree = "<group>"; };
 		84636F951B84AB0800E1AA41 /* TheHungerGames.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheHungerGames.jpg; sourceTree = "<group>"; };
@@ -79,10 +83,6 @@
 		84F23B221B83692C0064EFFC /* AVTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTableViewController.m; sourceTree = "<group>"; };
 		84F23B241B83692C0064EFFC /* AVTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTableViewCell.h; sourceTree = "<group>"; };
 		84F23B251B83692C0064EFFC /* AVTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTableViewCell.m; sourceTree = "<group>"; };
-		84F23B351B83705A0064EFFC /* AVBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVBookModel.h; sourceTree = SOURCE_ROOT; };
-		84F23B361B83705A0064EFFC /* AVBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVBookModel.m; sourceTree = SOURCE_ROOT; };
-		84F23B381B8370910064EFFC /* AVCellDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCellDataSource.h; sourceTree = SOURCE_ROOT; };
-		84F23B391B8370910064EFFC /* AVCellDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCellDataSource.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +109,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		841E18CE1B86842300A7C1DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				841E18CF1B86842300A7C1DA /* AVBookModel.h */,
+				841E18D01B86842300A7C1DA /* AVBookModel.m */,
+				841E18D11B86842300A7C1DA /* AVCellDataSource.h */,
+				841E18D21B86842300A7C1DA /* AVCellDataSource.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		84636F921B84AB0800E1AA41 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,21 +245,10 @@
 			children = (
 				84BA962B1B83A64F00DBAF9E /* AVAppDelegate.h */,
 				84BA962C1B83A64F00DBAF9E /* AVAppDelegate.m */,
-				84F23B1E1B83692C0064EFFC /* Model */,
+				841E18CE1B86842300A7C1DA /* Model */,
 				84F23B1F1B83692C0064EFFC /* UI */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		84F23B1E1B83692C0064EFFC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				84F23B351B83705A0064EFFC /* AVBookModel.h */,
-				84F23B361B83705A0064EFFC /* AVBookModel.m */,
-				84F23B381B8370910064EFFC /* AVCellDataSource.h */,
-				84F23B391B8370910064EFFC /* AVCellDataSource.m */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		84F23B1F1B83692C0064EFFC /* UI */ = {
@@ -386,13 +386,13 @@
 			files = (
 				84B75F021B83A71700E27E48 /* AVCollectionViewController.m in Sources */,
 				84636FA21B84C32400E1AA41 /* AVAddItemViewController.m in Sources */,
-				84F23B371B83705A0064EFFC /* AVBookModel.m in Sources */,
-				84F23B3A1B8370910064EFFC /* AVCellDataSource.m in Sources */,
 				848066501B71531E002D0C4D /* main.m in Sources */,
+				841E18D31B86842300A7C1DA /* AVBookModel.m in Sources */,
 				84BA962D1B83A64F00DBAF9E /* AVAppDelegate.m in Sources */,
 				84F23B2D1B83692C0064EFFC /* AVTableViewCell.m in Sources */,
 				84F23B2C1B83692C0064EFFC /* AVTableViewController.m in Sources */,
 				84B75F051B83A75800E27E48 /* AVCollectionViewCell.m in Sources */,
+				841E18D41B86842300A7C1DA /* AVCellDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
